@@ -1,0 +1,60 @@
+footer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+footer div {
+  font-family: "Aeonik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  /* identical to box height, or 20px */
+
+  letter-spacing: 0.03em;
+
+  color: #ecf9e8;
+}
+hr {
+  margin-left: 100px;
+}
+@media (max-width: 428px) {
+  .footer-title {
+    width: 182.8px;
+    height: 14.93px;
+    color: #ecf9e8;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  footer {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .footer-info {
+    display: flex;
+    margin: 50px;
+  }
+  .footer-info div {
+    display: flex;
+    margin-right: 20px;
+    flex-wrap: wrap;
+  }
+  .footer-end {
+    width: 189px;
+    height: 23px;
+    font-size: 15px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: auto;
+  }
+  hr {
+    margin-left: 0px;
+  }
+}

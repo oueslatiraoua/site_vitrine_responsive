@@ -1,0 +1,137 @@
+.section1 {
+  display: flex;
+  flex-direction: row;
+}
+.section1 p {
+  width: 464px;
+  margin-left: 587px;
+  width: 488px;
+  height: 46px;
+
+  margin-top: 58px;
+}
+.section1 h6 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 100px;
+  color: #ecf9e8;
+  width: 89px;
+  height: 29px;
+}
+.Section1_Container h1 {
+  width: 1310px;
+  height: 150px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110%;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.Section1_Container {
+  margin-top: 150px;
+}
+.section2 {
+  background: linear-gradient(90deg, #e3ffe6 0%, #e5e1d6 100%);
+  color: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.section2 p {
+  width: 464px;
+  margin-left: 587px;
+  width: 488px;
+  height: 46px;
+
+  margin-top: 58px;
+}
+.section2 h6 {
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 100px;
+  color: #1e3f04;
+  width: 89px;
+  height: 29px;
+}
+.Section2_Container h1 {
+  width: 1310px;
+  height: 150px;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110%;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+.Section2_Container {
+  margin-top: 150px;
+}
+.Section1_Container img {
+  width: 359px;
+  height: 456px;
+  margin-left: 1451.94px;
+  margin-top: -235px;
+  z-index: 1;
+  position: absolute;
+}
+
+@media (max-width: 428px) {
+  .Section1_Container h1 {
+    width: 398px;
+    height: 99px;
+    margin-left: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    /* or 33px */
+
+    text-align: justify;
+
+    color: #ecf9e8;
+  }
+  .section1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section1 p {
+    width: 464px;
+    margin-left: 10px;
+    width: 488px;
+    height: 46px;
+
+    margin-top: -40px;
+  }
+  .section1 h6 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 10px;
+    color: #ecf9e8;
+    width: 89px;
+    height: 29px;
+  }
+  .section2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section2 p {
+    width: 464px;
+    margin-left: 10px;
+    width: 488px;
+    height: 46px;
+
+    margin-top: -40px;
+  }
+  .section2 h6 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-left: 10px;
+
+    width: 89px;
+    height: 29px;
+  }
+}

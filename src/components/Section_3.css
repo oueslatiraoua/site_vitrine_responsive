@@ -1,0 +1,117 @@
+.photos {
+  display: flex;
+  flex-direction: row;
+  margin-top: -200px;
+}
+.image1 {
+  width: 365px;
+  margin-left: 0px;
+  height: 624px;
+  margin-right: 5px;
+}
+.image2 {
+  width: 796px;
+  height: 624px;
+  margin-left: 0px;
+  margin-right: 5px;
+}
+.container_photos h1 {
+  width: 1884.32px;
+  height: 150px;
+
+  font-family: "Aeonik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68.0952px;
+  line-height: 110%;
+  /* or 75px */
+
+  color: #ecf9e8;
+}
+.Last_section h1 {
+  height: 75px;
+  width: 1609px;
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 68.0952px;
+  line-height: 110%;
+  color: #ecf9e8;
+  margin-top: 200px;
+  margin-left: 154px;
+  margin-bottom: 100px;
+}
+.Last_section button {
+  width: 180px;
+  height: 50px;
+  margin-left: 868px;
+  margin-bottom: 250px;
+  background: linear-gradient(90deg, #e3ffe6 0%, #e5e1d6 100%);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.03em;
+
+  color: #1e3f04;
+}
+
+@media (max-width: 428px) {
+  .container_photos h1 {
+    width: 399px;
+    height: 165px;
+
+    margin-top: 150px;
+
+    font-family: "Aeonik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    /* or 33px */
+
+    text-align: justify;
+
+    color: #ecf9e8;
+  }
+  .photos {
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+  }
+  .photos img {
+    display: flex;
+    width: 428px;
+    height: 250px;
+    margin: 2px;
+    flex-direction: column;
+  }
+  .Last_section h1 {
+    width: 321px;
+    height: 99px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    margin-left: 65px;
+    color: #ecf9e8;
+  }
+  .Last_section button {
+    width: 180px;
+    height: 50px;
+    margin-left: 110px;
+    margin-bottom: 250px;
+    background: linear-gradient(90deg, #e3ffe6 0%, #e5e1d6 100%);
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.03em;
+    margin-bottom: 150px;
+    color: #1e3f04;
+  }
+}

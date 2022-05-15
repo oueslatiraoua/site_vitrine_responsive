@@ -1,0 +1,116 @@
+.section2_Container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200px;
+  margin-left: -150px;
+}
+.section2_Container img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 800px;
+}
+.section2_Container div {
+  width: 60%;
+  margin-top: 100px;
+}
+.section2_Container h2 {
+  width: 1307px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 68.0952px;
+  line-height: 110%;
+  /* or 75px */
+
+  color: #ecf9e8;
+}
+.paragraph_container {
+  display: flex;
+
+  flex-direction: row;
+}
+.paragraph_container .paragraph {
+  margin-right: 100px;
+}
+.paragraph_container .paragraph p {
+  width: 363px;
+  height: 161px;
+  padding-left: 23px;
+}
+.paragraph_container .paragraph h5 {
+  font-family: "Aeonik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  padding-left: 23px;
+  /* identical to box height */
+
+  color: #ecf9e8;
+}
+.paragraph div {
+  background: linear-gradient(135deg, #e3ffe6 0%, #e5e1d6 100%);
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  /* identical to box height */
+
+  color: #1e3f04;
+}
+.section2 img {
+  margin-left: 200px;
+}
+@media (max-width: 428px) {
+  .section2_Container h2 {
+    width: 398px;
+    height: 102px;
+    margin-left: 150px;
+    margin-bottom: -150px;
+    margin-top: -150px;
+    font-family: "Aeonik";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    /* or 33px */
+
+    text-align: justify;
+
+    color: #ecf9e8;
+  }
+  .section2_Container img {
+    display: none;
+  }
+  .paragraph_container {
+    display: flex;
+
+    flex-direction: column;
+  }
+  .paragraph_container .paragraph {
+    margin-left: 170px;
+  }
+  .paragraph_container .paragraph p {
+    width: 364px;
+    height: 48px;
+    left: 39px;
+    top: 2351px;
+
+    font-family: "Aeonik";
+    font-style: italic;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 120%;
+    /* or 16px */
+  }
+  .paragraph_container .paragraph h5 {
+    /* identical to box height */
+    width: 300px;
+    color: #ecf9e8;
+  }
+}
